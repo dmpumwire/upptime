@@ -9,7 +9,7 @@ sites:
     url: https://ereg.uneb.ac.ug
   - name: OMS Production
     url: https://app.qfu.co.ug/
-   expectedStatusCodes:
+    expectedStatusCodes:
       - 200
       - 301
 
