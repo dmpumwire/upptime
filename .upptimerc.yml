@@ -1,32 +1,38 @@
-# Change these first
-owner: dmpumwire # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: dmpumwire
+repo: upptime
 
 sites:
   - name: FMS Production
     url: https://fms.requitytrack.com
+    maxResponseTime: 3000
   - name: Signal SMS Prod
     url: https://portal.signalsms.net
+    maxResponseTime: 3000
   - name: OMS Production
     url: https://app.qfu.co.ug/
+    maxResponseTime: 3000
     expectedStatusCodes:
       - 200
       - 301
 
+assignees:
+  - dmpumwire
+
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.requitynetworks.com
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://raw.githubusercontent.com/dmpumwire/upptime/master/assets/logo.png
+  favicon: https://raw.githubusercontent.com/dmpumwire/upptime/master/assets/logo.png
   name: Requity Networks Status
-  introTitle: "**Requity Networks** System Status."
-  introMessage: "Current uptime and performance of our monitored services."
+  theme: light
+  introTitle: "**Requity Networks** System Status"
+  introMessage: "Live availability and response times for our services, checked every 5 minutes. Experiencing an issue not shown here? Contact [support@requitynetworks.com](mailto:support@requitynetworks.com)."
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Support
+      href: mailto:support@requitynetworks.com
+    - title: Website
+      href: https://requitynetworks.com
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  footer: "© 2026 [Requity Networks](https://requitynetworks.com) · [support@requitynetworks.com](mailto:support@requitynetworks.com)"
