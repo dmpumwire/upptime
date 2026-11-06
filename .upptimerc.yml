@@ -27,6 +27,9 @@ sites:
 assignees:
   - dmpumwire
 
+# Keep every incident in the public history, including ones shorter than 15 minutes
+skipDeleteIssues: true
+
 status-website:
   cname: status.requitynetworks.com
   logoUrl: https://status.requitynetworks.com/logo.png
@@ -52,6 +55,9 @@ status-website:
       href: mailto:support@requitynetworks.com
     - title: Website
       href: https://requitynetworks.com
+    # Uncomment once the public Telegram channel exists (replace requitystatus with its real username)
+    # - title: Get Alerts
+    #   href: https://t.me/requitystatus
 
 i18n:
   footer: "© 2026 [Requity Networks](https://requitynetworks.com) · [support@requitynetworks.com](mailto:support@requitynetworks.com)"
