@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/fms.requitytrack.com.ico",
     "slug": "fms-production",
     "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 503,
-    "timeDay": 497,
-    "timeWeek": 503,
-    "timeMonth": 503,
-    "timeYear": 503,
+    "uptime": "99.94%",
+    "uptimeDay": "99.89%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.94%",
+    "time": 488,
+    "timeDay": 476,
+    "timeWeek": 488,
+    "timeMonth": 488,
+    "timeYear": 488,
     "dailyMinutesDown": {
-      "2026-11-06": 0
+      "2026-11-06": 2
     }
   },
   {
@@ -25,19 +25,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/portal.signalsms.net.ico",
     "slug": "signal-sms-prod",
     "status": "down",
-    "uptime": "85.77%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "85.77%",
-    "uptimeMonth": "85.77%",
-    "uptimeYear": "85.77%",
-    "time": 454,
-    "timeDay": 463,
-    "timeWeek": 454,
-    "timeMonth": 454,
-    "timeYear": 454,
+    "uptime": "85.84%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "85.84%",
+    "uptimeMonth": "85.84%",
+    "uptimeYear": "85.84%",
+    "time": 446,
+    "timeDay": 450,
+    "timeWeek": 446,
+    "timeMonth": 446,
+    "timeYear": 446,
     "dailyMinutesDown": {
       "2026-11-04": 384,
-      "2026-11-06": 0
+      "2026-11-06": 1
     }
   },
   {
@@ -51,11 +51,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 346,
-    "timeDay": 351,
-    "timeWeek": 346,
-    "timeMonth": 346,
-    "timeYear": 346,
+    "time": 321,
+    "timeDay": 313,
+    "timeWeek": 321,
+    "timeMonth": 321,
+    "timeYear": 321,
     "dailyMinutesDown": {}
   }
 ]
