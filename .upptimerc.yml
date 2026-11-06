@@ -5,12 +5,15 @@ sites:
   - name: FMS Production
     url: https://fms.requitytrack.com
     maxResponseTime: 3000
+    # icon: https://status.requitynetworks.com/icons/fms.png
   - name: Signal SMS Prod
     url: https://portal.signalsms.net
     maxResponseTime: 3000
+    # icon: https://status.requitynetworks.com/icons/signalsms.png
   - name: OMS Production
     url: https://app.qfu.co.ug/
     maxResponseTime: 3000
+    # icon: https://status.requitynetworks.com/icons/oms.png
     expectedStatusCodes:
       - 200
       - 301
@@ -26,6 +29,16 @@ status-website:
   name: Requity Networks Status
   introTitle: "**Requity Networks** System Status"
   introMessage: "Live availability and response times for our services, checked every 5 minutes. Experiencing an issue not shown here? Contact [support@requitynetworks.com](mailto:support@requitynetworks.com)."
+  links:
+    - rel: preconnect
+      href: https://fonts.googleapis.com
+    - rel: stylesheet
+      href: https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap
+  metaTags:
+    - name: theme-color
+      content: "#132a4c"
+    - name: description
+      content: "Live status and uptime for Requity Networks services."
   navbar:
     - title: Status
       href: /
@@ -36,3 +49,5 @@ status-website:
 
 i18n:
   footer: "© 2026 [Requity Networks](https://requitynetworks.com) · [support@requitynetworks.com](mailto:support@requitynetworks.com)"
+  allSystemsOperational: "All Requity services are running normally"
+  activeIncidents: "Current incidents"
