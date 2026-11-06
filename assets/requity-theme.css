@@ -1,0 +1,90 @@
+/* Requity Networks theme for Upptime
+   Place this file at assets/requity-theme.css in the upptime repo.
+   Brand palette taken from the Requity Networks logo. */
+
+:root {
+  /* Brand */
+  --rq-navy: #132a4c;
+  --rq-blue: #0a3d62;
+  --rq-orange: #f7941d;
+  --rq-gold: #f5bc17;
+  --rq-bg: #f4f6fa;
+  --rq-border: #dde3ec;
+
+  /* Page */
+  --body-background-color: var(--rq-bg);
+  --body-text-color: var(--rq-navy);
+  --card-background-color: #ffffff;
+  --card-border-color: var(--rq-border);
+
+  /* Navbar */
+  --nav-background-color: #ffffff;
+  --nav-border-bottom-color: var(--rq-border);
+  --nav-current-border-bottom-color: var(--rq-orange);
+
+  /* Status colours: green / amber / red kept for instant recognition */
+  --up-border-left-color: #1f9d55;
+  --up-background-color: #e8f6ee;
+  --degraded-border-left-color: var(--rq-orange);
+  --degraded-background-color: #fff4e6;
+  --down-border-left-color: #d64545;
+  --down-background-color: #fdeaea;
+
+  --tag-color: #ffffff;
+  --tag-up-background-color: #1f9d55;
+  --tag-degraded-background-color: var(--rq-orange);
+  --tag-down-background-color: #d64545;
+  --tag-under-maintenance-background-color: var(--rq-blue);
+  --change-background-color: var(--rq-gold);
+
+  /* Buttons */
+  --submit-button-background-color: var(--rq-blue);
+  --submit-button-border-color: var(--rq-navy);
+  --submit-button-color: #ffffff;
+  --error-button-background-color: var(--rq-orange);
+  --error-button-border-color: #d97a0a;
+  --error-button-color: #ffffff;
+
+  /* Response-time graphs: full strength, no fading */
+  --graph-opacity: 1;
+  --graph-filter: none;
+}
+
+/* Navbar: show the full wide logo, hide the duplicate text name */
+nav .logo img {
+  height: 44px !important;
+  width: auto !important;
+  max-width: 200px;
+}
+nav .logo div {
+  display: none !important;
+}
+nav ul li a {
+  color: var(--rq-blue) !important;
+  font-weight: 600 !important;
+}
+nav ul li a:hover {
+  color: var(--rq-orange) !important;
+}
+
+/* Cards: rounded corners and a soft shadow */
+article {
+  border-radius: 12px !important;
+  box-shadow: 0 2px 10px rgba(19, 42, 76, 0.06);
+}
+
+/* Headings and links in brand colours */
+h1, h2, h3 {
+  color: var(--rq-navy);
+}
+main a {
+  color: var(--rq-blue);
+}
+main a:hover {
+  color: var(--rq-orange);
+}
+
+/* Gold accent line under the page header */
+nav {
+  border-bottom: 3px solid var(--rq-gold) !important;
+}
