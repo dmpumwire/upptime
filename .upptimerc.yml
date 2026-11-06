@@ -20,10 +20,10 @@ assignees:
 
 status-website:
   cname: status.requitynetworks.com
-  logoUrl: https://raw.githubusercontent.com/dmpumwire/upptime/master/assets/logo.png
-  favicon: https://raw.githubusercontent.com/dmpumwire/upptime/master/assets/logo.png
+  logoUrl: https://status.requitynetworks.com/logo.png
+  favicon: https://status.requitynetworks.com/favicon.png
+  themeUrl: https://status.requitynetworks.com/requity-theme.css
   name: Requity Networks Status
-  theme: light
   introTitle: "**Requity Networks** System Status"
   introMessage: "Live availability and response times for our services, checked every 5 minutes. Experiencing an issue not shown here? Contact [support@requitynetworks.com](mailto:support@requitynetworks.com)."
   navbar:
