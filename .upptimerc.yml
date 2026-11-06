@@ -6,13 +6,13 @@ sites:
     url: https://fms.requitytrack.com
     maxResponseTime: 3000
     # icon: https://status.requitynetworks.com/icons/fms.png
-    __dangerous__body_down_if_text_missing: "<title>Sign in | Requity Track</title>"
+    __dangerous__body_down_if_text_missing: "<title>Requity Track</title>"
     __dangerous__body_down_if_regex_missing: '^(?![\s\S]*(?:[Hh]acked [Bb]y|HACKED BY|[Dd]efaced|DEFACED|[Oo]wned [Bb]y|[Pp]wned|PWNED))'
   - name: Signal SMS Prod
     url: https://portal.signalsms.net
     maxResponseTime: 3000
     # icon: https://status.requitynetworks.com/icons/signalsms.png
-    __dangerous__body_down_if_text_missing: "<title>Sign in</title>"
+    __dangerous__body_down_if_text_missing: "<title>Portal</title>"
     __dangerous__body_down_if_regex_missing: '^(?![\s\S]*(?:[Hh]acked [Bb]y|HACKED BY|[Dd]efaced|DEFACED|[Oo]wned [Bb]y|[Pp]wned|PWNED))'
   - name: OMS Production
     url: https://app.qfu.co.ug/
